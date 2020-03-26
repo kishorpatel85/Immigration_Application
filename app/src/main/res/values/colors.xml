@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005b96</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    !--button colour--!
+    <color name="Blue_strt">#2193B0</color>
+    <color name="Blue_end">#6dd5ed</color>
+
+    <color name="orange_s">#FFB75E</color>
+    <color name="orange_e">#ED8F03</color>
+
+    <color name="magenta_s">#cb2d3e</color>
+    <color name="magenta_e">#ef473a</color>
+
+    <color name="bluez_s">#1488CC</color>
+    <color name="bluez_e">#2B32B2</color>
+
+    <color name="yellow">#ffe000</color>
+    <color name="Blue_transparent">#2193b000</color>
+
+    <color name="transparent_white_1">#11ffffff</color>
+    <color name="transparent_white_14">#eeffffff</color>
+    <color name="transparent_white_17">#A0000000</color>
+
+    <color name="b_dark">#011f4b</color>
+    <color name="b_d2">#03396c</color>
+    <color name="b_d3" >#005b96</color>
+    <color name="b_d4" >#6497b1</color>
+    <color name="b_ligh" >#b3cde0</color>
+    <color name="logo_red" >#FE0002</color>
+    <color name="blue_reef" >#3a7bd5</color>
+
+
+
+
+</resources>

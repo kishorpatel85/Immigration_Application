@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Enquiry"
+        android:icon="@drawable/inquiry_icon_dash"
+        android:id="@+id/enquiry_bottom"></item>
+
+    <item
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard3_icon"
+        android:id="@+id/dashboard_bottom"></item>
+
+    <item
+        android:title="Setup"
+        android:icon="@drawable/setup_icon_bottomnav"
+        android:id="@+id/setup_bottom"></item>
+</menu>

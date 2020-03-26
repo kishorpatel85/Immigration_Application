@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/item1" android:title="Admin"
+            android:icon="@drawable/admin_icon_sidenadrawer"
+           ></item>
+        <item android:id="@+id/item2" android:title="Agent"
+            android:icon="@drawable/agent_icon_sidenavdrawer"
+            ></item>
+        <item android:id="@+id/item3" android:title="User"
+            android:icon="@drawable/user_icon_sidenavdrawer"></item>
+        <item android:id="@+id/item4" android:title="Calender"
+            android:icon="@drawable/calendar_icon_sidenavdrawer"></item>
+        <item android:id="@+id/item5" android:title="Visa"
+            android:icon="@drawable/visa_icon_sidenavdrawer"></item>
+        <item android:id="@+id/item6" android:title="Application"
+            android:icon="@drawable/user_applica_icon"></item>
+        <item android:id="@+id/item7" android:title="Reports"
+            android:icon="@drawable/report_icon_sidenavdrawer"></item>
+        <item android:id="@+id/item8" android:title="Logout"
+            android:icon="@drawable/logout_icon_sidenavdrawer"></item>
+
+    </group>
+
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigations">
+        <fragment
+            android:id="@+id/nav_admin"
+            android:name="com.example.immigration_application.Admin_Fragment"
+            android:label="Admin"
+            tools:layout="@layout/admin__fragment" />
+
+        <fragment
+            android:id="@+id/nav_agent"
+            android:name="com.example.immigration_application.Agent_Fragment"
+            android:label="Agent"
+            tools:layout="@layout/agent__fragment" />
+
+        <fragment
+            android:id="@+id/nav_user"
+            android:name="com.example.immigration_application.User_Fragment"
+            android:label="User"
+            tools:layout="@layout/user__fragment" />
+
+        <fragment
+            android:id="@+id/nav_enquiry"
+            android:name="com.example.immigration_application.Enquiry_Fragment"
+            android:label="Enquiry"
+            tools:layout="@layout/enquiry__fragment" />
+
+        <fragment
+            android:id="@+id/nav_Calender"
+            android:name="com.example.immigration_application.Fragment_calender"
+            android:label="Calender"
+            tools:layout="@layout/fragment_calender_fragment" />
+
+        <fragment
+            android:id="@+id/nav_visa"
+            android:name="com.example.immigration_application.Visa_applica_Fragment"
+            tools:layout="@layout/visa_applica__fragment" />
+
+        <fragment
+            android:id="@+id/nav_appication"
+            android:name="com.example.immigration_application.Application_Fragment"
+            tools:layout="@layout/application__fragment" />
+
+        <fragment
+            android:id="@+id/nav_invoice"
+            android:name="com.example.immigration_application.Visa_applica_Fragment"
+            tools:layout="@layout/visa_applica__fragment" />
+
+         <fragment
+            android:id="@+id/nav_country"
+            android:name="com.example.immigration_application.Country_Fragment"
+            tools:layout="@layout/country__fragment" />
+
+        <fragment
+            android:id="@+id/nav_reports"
+            android:name="com.example.immigration_application.Visa_applica_Fragment"
+            tools:layout="@layout/visa_applica__fragment" />
+    </navigation>
+

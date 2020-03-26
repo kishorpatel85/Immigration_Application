@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+
+        <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:paddingLeft="15dp"
+        android:paddingEnd="15dp">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColorHint="@android:color/black"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="35dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Admin Name"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="41dp"
+            android:paddingEnd="190dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+
+        <TextView
+            android:id="@+id/date_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="147dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@+id/btn_calender"
+            android:hint="Date of Birth : "
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/btn_calender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="98dp"
+
+            android:paddingLeft="20dp"
+            android:paddingEnd="10dp"
+            android:textSize="20sp"
+            android:text="D.O.B"
+        />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tv_mno_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColorHint="@android:color/black"
+            android:layout_marginTop="180dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile No:* "
+                android:inputType="phone"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="21sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tv_email_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColorHint="@android:color/black"
+            android:layout_marginTop="230dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Address* "
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="21sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/address_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColorHint="@android:color/black"
+            android:layout_marginTop="275dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/city_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColorHint="@android:color/black"
+            android:layout_marginTop="280dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/city"
+                android:hint="City*"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                 android:textSize="21sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+            android:id="@+id/back_to_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="379dp"
+            android:background="@drawable/button_login_shape"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Continue"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
